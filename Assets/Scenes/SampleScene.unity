@@ -270,13 +270,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1305e05d46db92498ce698a4c366a5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _originAuthority: 0
-  _latitude: 39.736401
-  _longitude: -105.25737
-  _height: 2250
-  _ecefX: -1292934.4950404565
-  _ecefY: -4740026.104285267
-  _ecefZ: 4056960.1513377777
+  _originAuthority: 1
+  _latitude: 35.65283
+  _longitude: 139.83947800000004
+  _height: 99999.99999994758
+  _ecefX: -4027396.8384847934
+  _ecefY: 3398660.3084339313
+  _ecefZ: 3755246.7601316823
   _scale: 1
 --- !u!4 &451822515
 Transform:
@@ -326,9 +326,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482498560}
-  m_LocalRotation: {x: 0.7071614, y: 6.851399e-17, z: -2.1386366e-17, w: 0.7070521}
-  m_LocalPosition: {x: -2.2754668e-10, y: 297750, z: 47.22964}
-  m_LocalScale: {x: 1, y: 0.99999833, z: 0.999998}
+  m_LocalRotation: {x: 0.7071068, y: -6.625497e-17, z: -6.785305e-18, w: 0.7071068}
+  m_LocalPosition: {x: -4.656613e-10, y: 0.000011089258, z: 0.22539581}
+  m_LocalScale: {x: 1, y: 0.9999983, z: 0.9999979}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 451822515}
@@ -501,24 +501,24 @@ MonoBehaviour:
   _detectTransformChanges: 1
   _localToGlobeFixedMatrix:
     c0:
-      x: 0.9647534823942803
-      y: -0.2631553137376776
-      z: 0.00000000000000005269038560286051
+      x: -0.6449312632871103
+      y: -0.7642405816070995
+      z: 5.765250318049252e-18
       w: 0
     c1:
-      x: 0.1682549732455833
-      y: 0.6168394210372805
-      z: 0.7688927494476278
+      x: 0.4454845809960649
+      y: -0.3759378139702444
+      z: 0.8125335975735359
       w: 0
     c2:
-      x: 0.20233814031829137
-      y: 0.7417916922165697
-      z: -0.6393749410384241
+      x: 0.6209709270118287
+      y: -0.5240281320577627
+      z: -0.5829112360026977
       w: 0
     c3:
-      x: -1353180.5947181967
-      y: -4960894.28148161
-      z: 4247335.360958106
+      x: -4027396.7380811474
+      y: 3398660.2237047884
+      z: 3755246.943280129
       w: 1
   _localToGlobeFixedMatrixIsValid: 1
 --- !u!114 &482498566
@@ -653,7 +653,7 @@ Camera:
     height: 1
   near clip plane: 0.5
   far clip plane: 1000000
-  field of view: 150
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -690,6 +690,7 @@ MonoBehaviour:
   minDistanceToGround: 10
   cameraActions:
   - {fileID: 11400000, guid: 68ddc09599fadf54ebafab63cc658f6f, type: 2}
+  - {fileID: 11400000, guid: b22d167f3a0b6434fb18c46d593b1920, type: 2}
   m_Georeference: {fileID: 451822514}
   m_GlobeAnchor: {fileID: 482498565}
 --- !u!1 &832575517
