@@ -312,6 +312,7 @@ GameObject:
   - component: {fileID: 482498563}
   - component: {fileID: 482498562}
   - component: {fileID: 482498569}
+  - component: {fileID: 482498570}
   m_Layer: 0
   m_Name: DynamicCamera
   m_TagString: MainCamera
@@ -691,8 +692,26 @@ MonoBehaviour:
   cameraActions:
   - {fileID: 11400000, guid: 68ddc09599fadf54ebafab63cc658f6f, type: 2}
   - {fileID: 11400000, guid: b22d167f3a0b6434fb18c46d593b1920, type: 2}
+  - {fileID: 11400000, guid: f4aeba8b923ee344190d02af75904623, type: 2}
   m_Georeference: {fileID: 451822514}
   m_GlobeAnchor: {fileID: 482498565}
+--- !u!114 &482498570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482498560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455d19e59726c8742b2dba65539ac255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useCesiumRebase: 1
+  nearMin: 1
+  nearMax: 1000
+  farMin: 100000
+  farMax: 1e+9
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
