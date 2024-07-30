@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8f29acc35e32049aeacb15452fd362, type: 3}
+  m_Name: CesiumOrbitAction
+  m_EditorClassIdentifier: 
+  mouseButtonIndex: 2
+  alternativeMouseButtonIndex: 0
+  alternativeKeyCodes: 300100002f0100003601000035010000
+  pitchSensitivity: 200
+  pitchAngleMin: -60
+  pitchAngleMax: 60
+  yawSensitivity: 400
+  inertiaCoefficient: 10
